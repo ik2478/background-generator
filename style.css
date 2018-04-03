@@ -1,0 +1,27 @@
+body{
+
+	background:linear-gradient(to right ,brown,yellow,blue,red,grey); /*multiple color stops*/
+
+	/*background:linear-gradient(to bottom right,yellow,blue);
+		diagonal from top to bottom right
+	*/
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: 40px;
+
+}
+
+
+h2{
+	text-decoration: blink;
+	font-family: fantasy;
+	/*background:linear-gradient(brown,yellow);*/
+	
+}
+
+.fadeInLeft {
+  animation-duration: 20s;
+  animation-delay: 1s;
+  animation-iteration-count: 10;
+}
